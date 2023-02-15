@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <h1 style={{ color: getCounterColor() }}>{count}</h1>
       <button onClick={incrementCount}>Increment</button>
-      <button onClick={decrementCount}>Decrement</button>
+      <button onClick={decrementCount}>Decrement</button> 
     </div>
   );
 }
